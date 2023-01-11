@@ -1,0 +1,6 @@
+com\curdfunction\Create.class
+com\report\ExtentReportAutomation.class
+com\curdfunction\CreateFinalReview.class
+com\curdfunction\Read.class
+com\curdfunction\Delete.class
+com\curdfunction\Update.class

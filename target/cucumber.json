@@ -1,0 +1,64 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "As a user, i need to validate send data with HTTP post function ",
+        "id": "testing-postapi-create-function;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2544842100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "setup test data into json \u0026 use post method",
+            "match": {
+              "location": "StepDef.setup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 549753200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate test cases",
+            "match": {
+              "location": "StepDef.postTestCasesValidate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag01"
+          }
+        ]
+      }
+    ],
+    "name": "Testing postAPI create function",
+    "description": "",
+    "id": "testing-postapi-create-function",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/postAPI.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
